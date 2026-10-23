@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Learning & Course Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#/" class="brand">🎓 LearnHub</a>
+      <nav>
+        <a href="#/" id="nav-courses">Courses</a>
+        <a href="#/dashboard" id="nav-dashboard">My Dashboard <span id="enroll-count" class="badge">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="app" aria-live="polite"></main>
+
+  <footer class="site-footer">
+    <p>Student Learning & Course Portal · Built with HTML, CSS &amp; JavaScript</p>
+  </footer>
+
+  <div id="toast" class="toast" role="status"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
